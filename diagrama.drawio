@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2024-01-23T03:46:49.204Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 YaBrowser/23.11.0.0 Safari/537.36" version="22.1.21" etag="5j-qwMXeIMP_CF2o9N4q" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1247" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zx2irxpPdPUhOP4o4S2_-9" value="PatientQueueApp    " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1170" y="40" width="190" height="448" as="geometry" />
+        </mxCell>
+        <mxCell id="zx2irxpPdPUhOP4o4S2_-10" value="+ switchScreen()&lt;br&gt;+ calculateQueueNumber()&lt;br&gt;+ recalculateQueueNumbers()&lt;br&gt;+ loadPatientData()&lt;br&gt;+ savePatientData()&lt;br&gt;+ registerPatient()&lt;br&gt;+ processPatient()&lt;br&gt;+ goBackToRegistration()&lt;br&gt;+ processSelectedPatient()&lt;br&gt;+ registerPatientInQueue()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zx2irxpPdPUhOP4o4S2_-9">
+          <mxGeometry y="26" width="190" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="zx2irxpPdPUhOP4o4S2_-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="zx2irxpPdPUhOP4o4S2_-9">
+          <mxGeometry y="200" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zx2irxpPdPUhOP4o4S2_-12" value="- registerScreen&lt;br&gt;- receptionScreen&lt;br&gt;- queueScreen&lt;br&gt;- registerLayout&lt;br&gt;- receptionLayout&lt;br&gt;- queueLayout&lt;br&gt;- receptionList&lt;br&gt;- queueList&lt;br&gt;- registerButton&lt;br&gt;- receptionButton&lt;br&gt;- backButton&lt;br&gt;- processButton&lt;br&gt;- registerInQueueButton&lt;br&gt;- progressDialog&lt;br&gt;- currentScreen" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="zx2irxpPdPUhOP4o4S2_-9">
+          <mxGeometry y="208" width="190" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zx2irxpPdPUhOP4o4S2_-21" value="QProgressDialog  " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="930" y="550" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="zx2irxpPdPUhOP4o4S2_-25" value="QListWidget    " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1190" y="550" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="zx2irxpPdPUhOP4o4S2_-29" value="QPushButton      " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1430" y="550" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="zx2irxpPdPUhOP4o4S2_-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.005;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zx2irxpPdPUhOP4o4S2_-12" target="zx2irxpPdPUhOP4o4S2_-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="550" as="sourcePoint" />
+            <mxPoint x="1200" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zx2irxpPdPUhOP4o4S2_-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.474;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zx2irxpPdPUhOP4o4S2_-12" target="zx2irxpPdPUhOP4o4S2_-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="500" as="sourcePoint" />
+            <mxPoint x="1310" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zx2irxpPdPUhOP4o4S2_-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zx2irxpPdPUhOP4o4S2_-12" target="zx2irxpPdPUhOP4o4S2_-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="500" as="sourcePoint" />
+            <mxPoint x="1470" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
